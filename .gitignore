@@ -38,3 +38,8 @@ figures/
 研报阅读/
 *.pdf
 *.pptx
+Project/A_data/
+Project/历史版本/
+Project/C_output/
+Project/SY_Baseline/
+Project/SY_Reference/

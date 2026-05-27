@@ -1,0 +1,14 @@
+# 忽略所有文件夹
+*/
+
+# 但保留 Final_Results_20260223_235650 文件夹
+!Final_Results_20260223_235650/
+!Final_Results_20260223_235650/**
+
+# 常规忽略
+.ipynb_checkpoints/
+.idea/
+model_runs/
+batch_runs_*/
+Results_*/
+零散资产数据/

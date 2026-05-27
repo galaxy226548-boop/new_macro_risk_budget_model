@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 模型運行輸出（帶時間戳，可復現）
+Final_Results_*/
+Results_*/
+model_runs/
+batch_runs_*/
+历史版本/
+
+# 生成的圖表
+figures/
+
+# matplotlib 緩存
+.matplotlib/
+
+# IDE
+.idea/
+
+# 授權限制數據
+*仅供复旦大学使用*
+
+# 數據文件（本地保留，不上傳）
+*.csv
+*.xlsx
+*.zip
+底层资产数据/
+底层资产.xlsx
+
+# 研報與結果文件
+已读研报/
+研报阅读/
+*.pdf
+*.pptx

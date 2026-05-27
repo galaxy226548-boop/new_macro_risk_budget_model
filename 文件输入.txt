@@ -1,0 +1,18 @@
+# 资产数据文件
+target_docu = "ALL_ASSETS.xlsx"
+
+# 使用到的数据的时间范围
+start_date = "2006-11-01"
+end_date = "2026-01-31"
+
+# 风险平价模型参数设置
+LOOKBACK_MONTHS = 6          # 用过去6个月日收益估计协方差
+ANNUAL_DAYS = 252
+RF_ANNUAL = 0.015              # 年化无风险利率（先设0；你之后可换成曲线/序列）
+LONG_ONLY = True
+STRATEGY_START = "2008-12-31" 
+
+# 输入
+TARGET_VOL_LIST = [0.02, 0.03, 0.04, 0.05, 0.06]
+MIN_LEVERAGE = 0.80
+MAX_LEVERAGE = 1.40
